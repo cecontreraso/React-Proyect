@@ -1,0 +1,12 @@
+﻿body {
+}
+
+
+.navMenu{
+
+    display: flex;
+    justify-content:flex-end;
+    background-color:darkolivegreen;
+
+
+}
