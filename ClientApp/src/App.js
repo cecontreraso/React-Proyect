@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
 import NavMenu from './Componentes/NavMenu';
 import Tarjeta from './Componentes/Tarjeta';
+import Intranet from './View/Intranet';
+
 
 const App = () => {
 
@@ -12,6 +14,8 @@ const App = () => {
         Correo: "cesar@gmail.com"
 
     }
+
+    
 
     const[persona,setPersona] = useState(modeloPersona)
 
@@ -30,9 +34,11 @@ const App = () => {
 
 
                     <Tarjeta />
-
+                    
+                    
                 </div>
-                
+
+                <Intranet />
             </div>
             
         </div>
